@@ -1,0 +1,2039 @@
+body {
+  display: flex;
+  max-width: 1550px;
+  max-height: 800px;
+  margin: 0 auto;
+  background: rgba(237, 245, 242, 0.897);
+  .pnb {
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    position: absolute;
+    z-index: 1;
+  }
+  .pnb1 {
+    margin-top: 750px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    position: absolute;
+    z-index: 2;
+  }
+  header {
+    display: flex;
+    width: 100%;
+    .container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 80px;
+      width: 100%;
+      position: fixed;
+      background: linear-gradient(
+        135deg,
+        #242425 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-bottom-right-radius: 200px;
+      clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+      z-index: 68;
+
+      h1 {
+        color: rgba(244, 249, 255, 0.836);
+        font-family: "Lobster", cursive;
+        font-size: 35px;
+        border-radius: 10px;
+        height: 80px;
+        width: 300px;
+        padding-left: 35px;
+        padding-top: 20px;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 69;
+      }
+    }
+    .salary {
+      width: 35px;
+      height: 35px;
+      margin-left: 275px;
+      margin-top: 35px;
+      display: none;
+    }
+    .electriccar {
+      width: 60px;
+      height: 60px;
+      margin-left: 55px;
+      margin-top: 15px;
+    }
+  }
+  .slayd {
+    // text-align: center;
+    width: 60%;
+    //height: 60%;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 300px;
+    position: absolute;
+    border: 5px solid #29292960;
+    border-radius: 10px;
+    background: linear-gradient(
+      135deg,
+      #e7ecece0 0%,
+      #c4d9dd8f 50%,
+      rgba(232, 237, 238, 0.945) 90%
+    );
+    box-shadow: 0px 0px 12px rgb(0, 0, 0);
+    z-index: 28;
+    .slayd_mec {
+      width: 10px;
+      //position: absolute;
+
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        margin-left: 25px;
+        margin-top: 5px;
+        font-size: 290%;
+      }
+      p {
+        text-align: center;
+        // position: absolute;
+        width: 200px;
+        font-size: 120%;
+        margin-left: 25px;
+        margin-top: 135px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+    }
+
+    .slayd_contex {
+      //display: flex;
+      .pngwing6 {
+        width: 100%;
+      }
+    }
+  }
+  .slayd1 {
+    text-align: center;
+    width: 60%;
+    margin-top: 900px;
+    margin-left: 300px;
+    position: absolute;
+    border: 5px solid #29292960;
+    border-radius: 10px;
+    background: linear-gradient(
+      135deg,
+      #e7ecece0 0%,
+      #c4d9dd8f 50%,
+      rgba(232, 237, 238, 0.945) 90%
+    );
+    box-shadow: 0px 0px 12px rgb(0, 0, 0);
+    z-index: 28;
+    h2 {
+      position: absolute;
+      font-family: "Lobster", cursive;
+      color: #1f1f1fda;
+      padding-left: 230px;
+      font-size: 35px;
+    }
+    ul {
+      list-style-type: none;
+      position: absolute;
+      width: 270px;
+      font-size: 20px;
+      margin-top: 100px;
+      font-family: "Lobster", cursive;
+      font-family: "Philosopher", sans-serif;
+      color: #1f1f1fda;
+    }
+
+    .slayd_contex1 {
+      .pngwing7 {
+        width: 65%;
+        margin-left: 175px;
+        margin-top: 65px;
+      }
+    }
+  }
+  .bloc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 29;
+    position: fixed;
+    .bloc_block {
+      width: 150px;
+      height: 100%;
+      position: fixed;
+
+      padding-top: 140px;
+      background: linear-gradient(
+        135deg,
+        #e4e4e469 0%,
+        #272424bb 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-left-radius: 200px;
+      border-bottom-left-radius: 200px;
+      z-index: 30;
+      box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+      .combo {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        color: rgba(245, 8, 39, 0.678);
+        background-color: rgba(241, 241, 241, 0.753);
+        box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+        z-index: 40;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-size: 15px;
+      }
+      .combo1 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        color: rgba(245, 8, 39, 0.678);
+        background-color: rgba(241, 241, 241, 0.753);
+        box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+        z-index: 41;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-size: 15px;
+      }
+      .combo2 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        color: rgba(245, 8, 39, 0.678);
+        background-color: rgba(241, 241, 241, 0.753);
+        box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+        z-index: 42;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .modal {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    z-index: 180;
+    .modal_cli {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: absolute;
+      margin-top: 140px;
+      width: 700px;
+      height: 500px;
+      background-color: rgb(246, 250, 247);
+      border-radius: 10px;
+      border: 5px solid rgba(219, 189, 189, 0.623);
+      z-index: 180;
+      form {
+        margin-top: 200px;
+      }
+    }
+  }
+
+  .pnj {
+    position: fixed;
+    margin-left: 50px;
+    margin-bottom: 55px;
+    bottom: 0;
+    width: 150px;
+    height: 70px;
+    z-index: 200;
+    opacity: 0.8;
+  }
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+    height: 500px;
+    width: 100%;
+
+    position: absolute;
+
+    .head_conspect {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 5px solid rgba(105, 90, 83, 0.096);
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #dbc1b110 0%,
+        #ffffff41 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+
+      width: 400px;
+      height: 500px;
+      margin-right: 50px;
+      margin-top: 50px;
+      font-size: 20px;
+      p {
+        padding: 20px;
+      }
+    }
+
+    .head_materiol {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 5px solid rgba(105, 90, 83, 0.096);
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #dbc1b110 0%,
+        #ffffff41 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      width: 400px;
+      height: 500px;
+      margin-top: 50px;
+      font-size: 20px;
+      p {
+        padding: 20px;
+      }
+    }
+  }
+}
+.telegram {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 250px;
+  z-index: 103;
+}
+.instagram {
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 205px;
+  position: fixed;
+  z-index: 101;
+}
+
+.foot {
+  bottom: 0;
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #201e1e 50%,
+    rgba(185, 193, 201, 0.075) 90%
+  );
+  border-top-right-radius: 100px;
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+  z-index: 100;
+  .ler {
+    position: fixed;
+    color: rgb(245, 242, 238);
+    padding-top: 12px;
+    padding-left: 90px;
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    font-family: "Philosopher", sans-serif;
+    font-family: "Yeseva One", cursive;
+  }
+  h3 {
+    //display: flex;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 5px;
+    color: #dfdfdf;
+    font-family: "Lobster", cursive;
+    font-family: "Philosopher", sans-serif;
+    font-family: "Yeseva One", cursive;
+    z-index: 250;
+  }
+}
+@media (max-width: 1473px) {
+  body {
+    display: flex;
+    max-width: 1473px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    .slayd {
+      // text-align: center;
+      width: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 140px;
+      margin-left: 300px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 25px;
+          margin-top: 5px;
+          font-size: 290%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 120%;
+          margin-left: 25px;
+          margin-top: 135px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        //display: flex;
+        .pngwing6 {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1286px) {
+  body {
+    display: flex;
+    max-width: 1286px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    .slayd {
+      // text-align: center;
+      width: 80%;
+      //height: 60%;
+      display: flex;
+      margin-top: 190px;
+      margin-left: 50px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 25px;
+          margin-top: 5px;
+          font-size: 290%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 120%;
+          margin-left: 25px;
+          margin-top: 135px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        //display: flex;
+        .pngwing6 {
+          width: 100%;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 80%;
+      margin-top: 900px;
+      margin-left: 50px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 230px;
+        font-size: 35px;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 270px;
+        font-size: 20px;
+        margin-top: 100px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 175px;
+          margin-top: 65px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    display: flex;
+    max-width: 1000px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 170px;
+      margin-left: 30px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 50px;
+          margin-top: 25px;
+          font-size: 350%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 120%;
+          margin-left: 15px;
+          margin-top: 180px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 50px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 100px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 900px;
+      margin-left: 30px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 350%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 20px;
+
+        margin-top: 150px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 175px;
+          margin-top: 150px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 770px), (max-height: 600px) {
+  body {
+    display: flex;
+    max-width: 770px;
+    max-height: 600px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    header {
+      display: flex;
+      width: 100%;
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 95%;
+        position: fixed;
+        background: linear-gradient(
+          135deg,
+          #242425 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-bottom-right-radius: 200px;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        z-index: 68;
+
+        h1 {
+          color: rgba(244, 249, 255, 0.836);
+          font-family: "Lobster", cursive;
+          font-size: 35px;
+          border-radius: 10px;
+          height: 80px;
+          width: 300px;
+          padding-top: 8px;
+          margin-left: 45px;
+          position: absolute;
+          z-index: 69;
+        }
+      }
+      .salary {
+        width: 35px;
+        height: 35px;
+        margin-left: 275px;
+        margin-top: 35px;
+        display: none;
+      }
+      .electriccar {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        //position: absolute;
+      }
+    }
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 130px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 130px;
+          margin-top: 25px;
+          font-size: 200%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 90%;
+          margin-left: 10px;
+          margin-top: 100px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 5px;
+        //padding-left: 50px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 100px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 850px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 35px;
+        padding-top: 10px;
+        font-size: 200%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 5px;
+        margin-top: 120px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 180px;
+          margin-top: 100px;
+        }
+      }
+    }
+    .bloc {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      z-index: 29;
+      position: fixed;
+      .bloc_block {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+
+        padding-top: 140px;
+        background: linear-gradient(
+          135deg,
+          #e4e4e469 0%,
+          #272424bb 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        z-index: 30;
+        box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+        .combo {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+          z-index: 40;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo1 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-top: 28px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+          z-index: 41;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo2 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+          z-index: 42;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+    .telegram {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 50px;
+      margin-left: 92%;
+      z-index: 103;
+    }
+    .instagram {
+      height: 30px;
+      width: 30px;
+      bottom: 0;
+      margin-bottom: 90px;
+      margin-left: 92%;
+      position: fixed;
+      z-index: 101;
+    }
+
+    .foot {
+      bottom: 0;
+      position: fixed;
+      height: 45px;
+      width: 90%;
+      background: linear-gradient(
+        135deg,
+        #201e1e 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-right-radius: 100px;
+      clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+      z-index: 100;
+      .ler {
+        display: none;
+        position: fixed;
+        color: rgb(245, 242, 238);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+      }
+      h3 {
+        //display: flex;
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+        z-index: 250;
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  body {
+    display: flex;
+    max-width: 640px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    header {
+      display: flex;
+      width: 100%;
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 95%;
+        position: fixed;
+        background: linear-gradient(
+          135deg,
+          #242425 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-bottom-right-radius: 200px;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        z-index: 68;
+
+        h1 {
+          color: rgba(244, 249, 255, 0.836);
+          font-family: "Lobster", cursive;
+          font-size: 35px;
+          border-radius: 10px;
+          height: 80px;
+          width: 300px;
+          padding-top: 8px;
+          margin-left: 45px;
+          position: absolute;
+          z-index: 69;
+        }
+      }
+      .salary {
+        width: 35px;
+        height: 35px;
+        margin-left: 275px;
+        margin-top: 35px;
+        display: none;
+      }
+      .electriccar {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        //position: absolute;
+      }
+    }
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 130px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 20px;
+          margin-top: 25px;
+          font-size: 200%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 90%;
+          margin-left: 70px;
+          margin-top: 100px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 50px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 100px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 850px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 5px;
+        padding-top: 10px;
+        font-size: 200%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 70px;
+        margin-top: 90px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 5px;
+          margin-top: 190px;
+        }
+      }
+    }
+    .bloc {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      z-index: 29;
+      position: fixed;
+      .bloc_block {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+
+        padding-top: 140px;
+        background: linear-gradient(
+          135deg,
+          #e4e4e469 0%,
+          #272424bb 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        z-index: 30;
+        box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+        .combo {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+          z-index: 40;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo1 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-top: 28px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+          z-index: 41;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo2 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+          z-index: 42;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+    .telegram {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 50px;
+      margin-left: 90%;
+      z-index: 103;
+    }
+    .instagram {
+      height: 30px;
+      width: 30px;
+      bottom: 0;
+      margin-bottom: 90px;
+      margin-left: 90%;
+      position: fixed;
+      z-index: 101;
+    }
+
+    .foot {
+      bottom: 0;
+      position: fixed;
+      height: 45px;
+      width: 90%;
+      background: linear-gradient(
+        135deg,
+        #201e1e 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-right-radius: 100px;
+      clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+      z-index: 100;
+      .ler {
+        display: none;
+        position: fixed;
+        color: rgb(245, 242, 238);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+      }
+      h3 {
+        //display: flex;
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+        z-index: 250;
+      }
+    }
+  }
+}
+@media (max-width: 510px) {
+  body {
+    display: flex;
+    max-width: 510px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    header {
+      display: flex;
+      width: 100%;
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 95%;
+        position: fixed;
+        background: linear-gradient(
+          135deg,
+          #242425 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-bottom-right-radius: 200px;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        z-index: 68;
+
+        h1 {
+          color: rgba(244, 249, 255, 0.836);
+          font-family: "Lobster", cursive;
+          font-size: 35px;
+          border-radius: 10px;
+          height: 80px;
+          width: 300px;
+          padding-top: 8px;
+          margin-left: 45px;
+          position: absolute;
+          z-index: 69;
+        }
+      }
+      .salary {
+        width: 35px;
+        height: 35px;
+        margin-left: 275px;
+        margin-top: 35px;
+        display: none;
+      }
+      .electriccar {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        //position: absolute;
+      }
+    }
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 130px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 15px;
+          margin-top: 25px;
+          font-size: 200%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 90%;
+          margin-left: 65px;
+          margin-top: 115px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 180px;
+        padding-left: 50px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 100px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 850px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 5px;
+        padding-top: 10px;
+        font-size: 200%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-top: 130px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 5px;
+          margin-top: 270px;
+        }
+      }
+    }
+    .bloc {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      z-index: 29;
+      position: fixed;
+      .bloc_block {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+
+        padding-top: 140px;
+        background: linear-gradient(
+          135deg,
+          #e4e4e469 0%,
+          #272424bb 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        z-index: 30;
+        box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+        .combo {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+          z-index: 40;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo1 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-top: 28px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+          z-index: 41;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo2 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+          z-index: 42;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+    .telegram {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 50px;
+      margin-left: 90%;
+      z-index: 103;
+    }
+    .instagram {
+      height: 30px;
+      width: 30px;
+      bottom: 0;
+      margin-bottom: 90px;
+      margin-left: 90%;
+      position: fixed;
+      z-index: 101;
+    }
+
+    .foot {
+      bottom: 0;
+      position: fixed;
+      height: 45px;
+      width: 90%;
+      background: linear-gradient(
+        135deg,
+        #201e1e 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-right-radius: 100px;
+      clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+      z-index: 100;
+      .ler {
+        display: none;
+        position: fixed;
+        color: rgb(245, 242, 238);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+      }
+      h3 {
+        //display: flex;
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+        z-index: 250;
+      }
+    }
+  }
+}
+@media (max-width: 370px) {
+  body {
+    display: flex;
+    max-width: 370px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    header {
+      display: flex;
+      width: 100%;
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 95%;
+        position: fixed;
+        background: linear-gradient(
+          135deg,
+          #242425 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-bottom-right-radius: 200px;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        z-index: 68;
+
+        h1 {
+          color: rgba(244, 249, 255, 0.836);
+          font-family: "Lobster", cursive;
+          font-size: 35px;
+          border-radius: 10px;
+          height: 80px;
+          width: 300px;
+          padding-top: 8px;
+          margin-left: 45px;
+          position: absolute;
+          z-index: 69;
+        }
+      }
+      .salary {
+        width: 35px;
+        height: 35px;
+        margin-left: 275px;
+        margin-top: 35px;
+        display: none;
+      }
+      .electriccar {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        //position: absolute;
+      }
+    }
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 130px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 15px;
+          margin-top: 25px;
+          font-size: 200%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 90%;
+          margin-left: 50px;
+          margin-top: 115px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 155px;
+        padding-left: 50px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 100px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 850px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 5px;
+        padding-top: 10px;
+        font-size: 200%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 18px;
+        margin-top: 130px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 65%;
+          margin-left: 5px;
+          margin-top: 250px;
+        }
+      }
+    }
+    .bloc {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      z-index: 29;
+      position: fixed;
+      .bloc_block {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+
+        padding-top: 140px;
+        background: linear-gradient(
+          135deg,
+          #e4e4e469 0%,
+          #272424bb 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        z-index: 30;
+        box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+        .combo {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+          z-index: 40;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo1 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-top: 28px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+          z-index: 41;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo2 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+          z-index: 42;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+    .telegram {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 50px;
+      margin-left: 90%;
+      z-index: 103;
+    }
+    .instagram {
+      height: 30px;
+      width: 30px;
+      bottom: 0;
+      margin-bottom: 90px;
+      margin-left: 90%;
+      position: fixed;
+      z-index: 101;
+    }
+
+    .foot {
+      bottom: 0;
+      position: fixed;
+      height: 45px;
+      width: 90%;
+      background: linear-gradient(
+        135deg,
+        #201e1e 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-right-radius: 100px;
+      clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+      z-index: 100;
+      .ler {
+        display: none;
+        position: fixed;
+        color: rgb(245, 242, 238);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+      }
+      h3 {
+        //display: flex;
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+        z-index: 250;
+      }
+    }
+  }
+}
+@media (max-height: 550px) {
+  body {
+    display: flex;
+    max-width: 1070px;
+    max-height: 550px;
+    margin: 0 auto;
+    background: rgba(237, 245, 242, 0.897);
+    header {
+      display: flex;
+      width: 100%;
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 95%;
+        position: fixed;
+        background: linear-gradient(
+          135deg,
+          #242425 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-bottom-right-radius: 200px;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        z-index: 68;
+
+        h1 {
+          color: rgba(244, 249, 255, 0.836);
+          font-family: "Lobster", cursive;
+          font-size: 35px;
+          border-radius: 10px;
+          height: 80px;
+          width: 300px;
+          padding-top: 8px;
+          margin-left: 45px;
+          position: absolute;
+          z-index: 69;
+        }
+      }
+      .salary {
+        width: 35px;
+        height: 35px;
+        margin-left: 275px;
+        margin-top: 35px;
+        display: none;
+      }
+      .electriccar {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        //position: absolute;
+      }
+    }
+    .slayd {
+      // text-align: center;
+      width: 75%;
+      height: 60%;
+      //height: 60%;
+      display: flex;
+      margin-top: 80px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      .slayd_mec {
+        width: 10px;
+        text-align: center;
+        //position: absolute;
+
+        h2 {
+          position: absolute;
+          font-family: "Lobster", cursive;
+          color: #1f1f1fda;
+          margin-left: 50px;
+          margin-top: 5px;
+          font-size: 200%;
+        }
+        p {
+          text-align: center;
+          // position: absolute;
+          width: 170px;
+          font-size: 90%;
+          margin-left: 20px;
+          margin-top: 60px;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          color: #1f1f1fda;
+        }
+      }
+
+      .slayd_contex {
+        position: absolute;
+        padding-top: 1px;
+        padding-left: 160px;
+        .pngwing6 {
+          //width: 100%;
+          padding-top: 30px;
+        }
+      }
+    }
+    .slayd1 {
+      text-align: center;
+      width: 75%;
+      height: 60%;
+      margin-top: 825px;
+      margin-left: 15px;
+      position: absolute;
+      border: 5px solid #29292960;
+      border-radius: 10px;
+      background: linear-gradient(
+        135deg,
+        #e7ecece0 0%,
+        #c4d9dd8f 50%,
+        rgba(232, 237, 238, 0.945) 90%
+      );
+      box-shadow: 0px 0px 12px rgb(0, 0, 0);
+      z-index: 28;
+      h2 {
+        position: absolute;
+        font-family: "Lobster", cursive;
+        color: #1f1f1fda;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 200%;
+      }
+      ul {
+        list-style-type: none;
+        position: absolute;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 1px;
+        margin-top: 60px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        color: #1f1f1fda;
+      }
+
+      .slayd_contex1 {
+        .pngwing7 {
+          width: 45%;
+          margin-left: 150px;
+          margin-top: 55px;
+        }
+      }
+    }
+    .bloc {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      z-index: 29;
+      position: fixed;
+      .bloc_block {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+
+        padding-top: 1px;
+        background: linear-gradient(
+          135deg,
+          #e4e4e469 0%,
+          #272424bb 50%,
+          rgba(185, 193, 201, 0.075) 90%
+        );
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        z-index: 30;
+        box-shadow: -3px 5px 30px rgba(0, 0, 0, 0.904);
+        .combo {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 6, 6, 0.938);
+          z-index: 40;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo1 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-top: 28px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(252, 207, 6, 0.938);
+          z-index: 41;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 9px;
+        }
+        .combo2 {
+          border-radius: 50%;
+          height: 60px;
+          width: 60px;
+          margin-left: 5px;
+          color: rgba(245, 8, 39, 0.678);
+          background-color: rgba(241, 241, 241, 0.753);
+          box-shadow: -2px 2px 15px rgba(6, 252, 80, 0.938);
+          z-index: 42;
+          font-family: "Lobster", cursive;
+          font-family: "Philosopher", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+    .pnj {
+      position: fixed;
+      margin-left: 30px;
+      margin-bottom: 45px;
+      bottom: 0;
+      width: 70px;
+      height: 50px;
+      z-index: 200;
+      opacity: 0.8;
+    }
+    .telegram {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 8px;
+      margin-left: 48%;
+      z-index: 103;
+    }
+    .instagram {
+      height: 30px;
+      width: 30px;
+      bottom: 0;
+      margin-bottom: 8px;
+
+      margin-left: 41%;
+      position: fixed;
+      z-index: 101;
+    }
+
+    .foot {
+      bottom: 0;
+      position: fixed;
+      height: 45px;
+      width: 90%;
+      background: linear-gradient(
+        135deg,
+        #201e1e 50%,
+        rgba(185, 193, 201, 0.075) 90%
+      );
+      border-top-right-radius: 100px;
+      clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+      z-index: 100;
+      .ler {
+        display: none;
+        position: fixed;
+        color: rgb(245, 242, 238);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+      }
+
+      h3 {
+        //display: flex;
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-family: "Lobster", cursive;
+        font-family: "Philosopher", sans-serif;
+        font-family: "Yeseva One", cursive;
+        z-index: 250;
+      }
+    }
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Philosopher:ital,wght@1,700&family=Yeseva+One&display=swap");
