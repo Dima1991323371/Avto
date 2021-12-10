@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Avto/static/css/main.240dd305.chunk.css",
+    "main.js": "/Avto/static/js/main.49c81a75.chunk.js",
+    "main.js.map": "/Avto/static/js/main.49c81a75.chunk.js.map",
+    "runtime-main.js": "/Avto/static/js/runtime-main.8f996c0d.js",
+    "runtime-main.js.map": "/Avto/static/js/runtime-main.8f996c0d.js.map",
+    "static/js/2.f45cf5b9.chunk.js": "/Avto/static/js/2.f45cf5b9.chunk.js",
+    "static/js/2.f45cf5b9.chunk.js.map": "/Avto/static/js/2.f45cf5b9.chunk.js.map",
+    "index.html": "/Avto/index.html",
+    "static/css/main.240dd305.chunk.css.map": "/Avto/static/css/main.240dd305.chunk.css.map",
+    "static/js/2.f45cf5b9.chunk.js.LICENSE.txt": "/Avto/static/js/2.f45cf5b9.chunk.js.LICENSE.txt",
+    "static/media/Car.e9f45b68.jpg": "/Avto/static/media/Car.e9f45b68.jpg",
+    "static/media/electriccar.ee79b532.png": "/Avto/static/media/electriccar.ee79b532.png",
+    "static/media/instagram.79535458.png": "/Avto/static/media/instagram.79535458.png",
+    "static/media/pngwing6.b49bbdcb.png": "/Avto/static/media/pngwing6.b49bbdcb.png",
+    "static/media/pngwing7.7674a9ac.png": "/Avto/static/media/pngwing7.7674a9ac.png",
+    "static/media/pnp.2cb73c13.png": "/Avto/static/media/pnp.2cb73c13.png",
+    "static/media/salary.e8468209.png": "/Avto/static/media/salary.e8468209.png",
+    "static/media/telegram.04c3d402.png": "/Avto/static/media/telegram.04c3d402.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f996c0d.js",
+    "static/js/2.f45cf5b9.chunk.js",
+    "static/css/main.240dd305.chunk.css",
+    "static/js/main.49c81a75.chunk.js"
+  ]
+}
