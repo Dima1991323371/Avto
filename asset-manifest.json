@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Avto/static/css/main.9b27fae1.chunk.css",
-    "main.js": "/Avto/static/js/main.240863bb.chunk.js",
-    "main.js.map": "/Avto/static/js/main.240863bb.chunk.js.map",
+    "main.js": "/Avto/static/js/main.06f83a92.chunk.js",
+    "main.js.map": "/Avto/static/js/main.06f83a92.chunk.js.map",
     "runtime-main.js": "/Avto/static/js/runtime-main.8f996c0d.js",
     "runtime-main.js.map": "/Avto/static/js/runtime-main.8f996c0d.js.map",
     "static/js/2.f45cf5b9.chunk.js": "/Avto/static/js/2.f45cf5b9.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.8f996c0d.js",
     "static/js/2.f45cf5b9.chunk.js",
     "static/css/main.9b27fae1.chunk.css",
-    "static/js/main.240863bb.chunk.js"
+    "static/js/main.06f83a92.chunk.js"
   ]
 }
