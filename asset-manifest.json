@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Avto/static/css/main.ef650169.chunk.css",
+    "main.css": "/Avto/static/css/main.203e3294.chunk.css",
     "main.js": "/Avto/static/js/main.b062c7cd.chunk.js",
     "main.js.map": "/Avto/static/js/main.b062c7cd.chunk.js.map",
     "runtime-main.js": "/Avto/static/js/runtime-main.8f996c0d.js",
@@ -8,7 +8,7 @@
     "static/js/2.f45cf5b9.chunk.js": "/Avto/static/js/2.f45cf5b9.chunk.js",
     "static/js/2.f45cf5b9.chunk.js.map": "/Avto/static/js/2.f45cf5b9.chunk.js.map",
     "index.html": "/Avto/index.html",
-    "static/css/main.ef650169.chunk.css.map": "/Avto/static/css/main.ef650169.chunk.css.map",
+    "static/css/main.203e3294.chunk.css.map": "/Avto/static/css/main.203e3294.chunk.css.map",
     "static/js/2.f45cf5b9.chunk.js.LICENSE.txt": "/Avto/static/js/2.f45cf5b9.chunk.js.LICENSE.txt",
     "static/media/Car.e9f45b68.jpg": "/Avto/static/media/Car.e9f45b68.jpg",
     "static/media/instagram.79535458.png": "/Avto/static/media/instagram.79535458.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.8f996c0d.js",
     "static/js/2.f45cf5b9.chunk.js",
-    "static/css/main.ef650169.chunk.css",
+    "static/css/main.203e3294.chunk.css",
     "static/js/main.b062c7cd.chunk.js"
   ]
 }
